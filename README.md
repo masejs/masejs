@@ -55,32 +55,28 @@ Use the tree structure in Javascript. Refer to the [Docs](https://paperui.com) f
 
 ```JS```
 
-```js
-const paperjs = {
-  div: {
-    input: [
-      {
-        placeholder: 'Email',
-        type: 'email',
-      },
-      {
-        placeholder: 'Password',
-        type: 'password',
-      },
-    ],
-    div: [
-      {
-        button: [
-          {
-            value: 'Submit',
-          },
-        ],
-      },
-    ],
-  },
-};
+```HTML
+<script type="module">
+  import { PaperJSInterpreter } from 'https://unpkg.com/paperjs/import.min.js';
 
-PaperJSInterpreter.interpret(paperjs);
+  const paperjs = {
+    div: {
+      styles: 'justify-content: center;display: flex;align-items: center;height: 100%;width: 100%;top: 0;left: 0;right: 0;bottom:0;position: fixed;',
+      div: [
+        {
+          button: [
+            {
+              value: 'Button',
+              styles: 'outline: none;border: none;height: 34px;width: 80px;border-radius: 9999px;',
+            },
+          ],
+        },
+      ],
+    },
+  };
+
+  PaperJSInterpreter.interpret(paperjs);
+</script>
 ```
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/zYQEjML).
