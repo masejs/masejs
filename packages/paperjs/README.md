@@ -83,7 +83,7 @@ const paperjs = {
 PaperJSInterpreter.interpret(paperjs);
 ```
 
-Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/YzbpOBv).
+Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/zYQEjML).
 
 <!--## Backers
 
