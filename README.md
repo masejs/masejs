@@ -39,12 +39,12 @@ npm install paperjs
 
 ## Import
 
-Import icon definitions from ```paperjs```.
+Import icon definitions from ```PaperJSInterpreter```.
 
 ```index.js```
 
 ```js
-import paperJS from 'paperjs';
+import { PaperJSInterpreter } from './import.min.js';
 
 PaperJSInterpreter.interpret(paperjs);
 ```
