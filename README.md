@@ -67,7 +67,7 @@ Use the tree structure in Javascript. Refer to the [Documentation](https://paper
          {
            value: 'Button',
            class: 'button',
-           styles: 'outline: none;border: none;height: 36px;width: 84px;border-radius: 9999px;color: #ffffff;background-color: #000000;text-align: center;justify-center: center;align-items: center;',
+           styles: 'outline: none;border: none;height: 36px;width: 84px;border-radius: 9999px;color: #ffffff;background-color: #000000;text-align: center;justify-center: center;align-items: center;cursor: pointer;',
          },
       ],
     },
