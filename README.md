@@ -2,7 +2,7 @@
 <img alt="Logo Banner" src="https://github.com/Opensource-Paper/PaperScript/blob/8cd9ee1cf372d2e5f26d64393c3336187fe8bb09/banner/banner%20(6).svg?sanitize=true"/>
 <br/>
 
-<div align="left">Paper JS is a new way to write HTML entirley in your javascript.</div>
+<div align="left">Paper JS is a new way to write HTML entirely in your JavaScript.</div>
 <div align="left">
 
 [Documentation](https://paperui.com/)
