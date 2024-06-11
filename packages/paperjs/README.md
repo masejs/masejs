@@ -51,7 +51,7 @@ PaperJSInterpreter.interpret(paperjs);
 
 ## Usage
 
-Use the tree structure in Javascript. Refer to the [Docs](https://paperui.com) for more guidance on using the library. That's it 🎉.
+Use the tree structure in Javascript. Refer to the [Documentation](https://paperui.com) for more guidance on using the library. That's it 🎉.
 
 ```JS```
 
