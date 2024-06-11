@@ -1,4 +1,4 @@
-class PaperJSInterpreter {
+export class PaperJSInterpreter {
     static interpret(paperjs) {
       for (const tag in paperjs) {
         const element = this.createElement(tag, paperjs[tag]);
