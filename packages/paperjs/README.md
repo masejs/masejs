@@ -58,24 +58,6 @@ Use the tree structure in Javascript. Refer to the [Docs](https://paperui.com) f
 ```js
 const paperjs = {
   div: {
-    value: 'HTML 5 Video Player',
-    styles: 'color: red;',
-    class: 'Header',
-    id: 'Header',
-    video: [
-      {
-        controls: 'true',
-        src: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-        styles: 'height: 100%;width: 100%;',
-        class: 'video',
-      },
-    ],
-    img: [
-      {
-        src: 'https://images.unsplash.com/photo-1717960432608-b6faf49eaeb3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        styles: 'height: 100%;width: 100%;',
-      },
-    ],
     input: [
       {
         placeholder: 'Email',
@@ -84,6 +66,15 @@ const paperjs = {
       {
         placeholder: 'Password',
         type: 'password',
+      },
+    ],
+    div: [
+      {
+        button: [
+          {
+            value: 'Submit',
+          },
+        ],
       },
     ],
   },
