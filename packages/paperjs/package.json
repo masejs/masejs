@@ -1,6 +1,6 @@
 {
   "name": "paperjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Paper JS is a new way to write HTML entirely in your JavaScript.",
   "main": "import.js",
   "unpkg": "import.min.js",
