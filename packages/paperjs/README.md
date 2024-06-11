@@ -5,7 +5,7 @@
 <div align="left">Paper JS is a new way to write HTML entirely in your JavaScript.</div>
 <div align="left">
 
-[Documentation](https://paperui.com/)
+<!--[Documentation](https://paperui.com/)-->
 
 </div>
 
@@ -51,7 +51,7 @@ PaperJSInterpreter.interpret(paperjs);
 
 ## Usage
 
-Use the tree structure in Javascript. Refer to the [Documentation](https://paperui.com) for more guidance on using the library. That's it 🎉.
+Use the tree structure in Javascript. <!--Refer to the [Documentation](https://paperui.com) for more guidance on using the library.-->That's it 🎉.
 
 ```JS```
 
