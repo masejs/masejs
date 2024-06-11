@@ -61,16 +61,14 @@ Use the tree structure in Javascript. Refer to the [Documentation](https://paper
 
   const paperjs = {
     div: {
+      class: 'container',
       styles: 'justify-content: center;display: flex;align-items: center;height: 100%;width: 100%;top: 0;left: 0;right: 0;bottom:0;position: fixed;',
-      div: [
-        {
-          button: [
-            {
-              value: 'Button',
-              styles: 'outline: none;border: none;height: 34px;width: 80px;border-radius: 9999px;',
-            },
-          ],
-        },
+      button: [
+         {
+           value: 'Button',
+           class: 'button',
+           styles: 'outline: none;border: none;height: 36px;width: 84px;border-radius: 9999px;color: #ffffff;background-color: #000000;text-align: center;justify-center: center;align-items: center;',
+         },
       ],
     },
   };
