@@ -1,0 +1,33 @@
+{
+  "name": "paperjs",
+  "version": "0.0.0",
+  "description": "Paper JS is a new way to write HTML entirely in your JavaScript.",
+  "main": "import.js",
+  "unpkg": "import.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Opensource-Paper/PaperJS.git"
+  },
+  "author": "Opensource-Paper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Opensource-Paper/PaperJS/issues"
+  },
+  "homepage": "https://paperui.com",
+  "keywords": [
+    "javascript",
+    "language",
+    "html",
+    "open-source",
+    "npm",
+    "documentation",
+    "js",
+    "paper",
+    "script",
+    "paperjs",
+    "paperscript"
+  ]
+}
