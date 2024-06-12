@@ -15,13 +15,13 @@
 
 Import Paper JS using CDN. The import.min.js file will automatically import all styles and JavaScript files into the ```<head>```.
 
-```html
-<script type="module" src="https://unpkg.com/paperjs"></script>
+```js
+import { PaperJSInterpreter } from 'https://unpkg.com/paperjs/import.min.js';
 ```
 
 #### 🚧 Specific Version
-```html
-<script type="module" src="https://unpkg.com/paperjs@latest"></script>
+```js
+import { PaperJSInterpreter } from 'https://unpkg.com/paperjs@latest/import.min.js';
 ```
 
 <!--#### 🚧 Development
@@ -44,7 +44,7 @@ Import icon definitions from ```PaperJSInterpreter```.
 ```index.js```
 
 ```js
-import { PaperJSInterpreter } from './import.min.js';
+import { PaperJSInterpreter } from './paperjs/import.min.js';
 
 PaperJSInterpreter.interpret(paperjs);
 ```
@@ -53,28 +53,26 @@ PaperJSInterpreter.interpret(paperjs);
 
 Use the tree structure in Javascript. <!--Refer to the [Documentation](https://paperui.com) for more guidance on using the library.-->That's it 🎉.
 
-```JS```
+```script.js```
 
-```HTML
-<script type="module">
-  import { PaperJSInterpreter } from 'https://unpkg.com/paperjs/import.min.js';
+```js
+import { PaperJSInterpreter } from 'https://unpkg.com/paperjs/import.min.js';
 
-  const paperjs = {
-    div: {
-      class: 'container',
-      styles: 'justify-content: center;display: flex;align-items: center;height: 100%;width: 100%;top: 0;left: 0;right: 0;bottom:0;position: fixed;',
-      button: [
-         {
-           value: 'Button',
-           class: 'button',
-           styles: 'outline: none;border: none;height: 36px;width: 84px;border-radius: 9999px;color: #ffffff;background-color: #000000;text-align: center;justify-center: center;align-items: center;cursor: pointer;',
-         },
-      ],
-    },
-  };
+const paperjs = {
+  div: {
+    class: 'container',
+    styles: 'justify-content: center;display: flex;align-items: center;height: 100%;width: 100%;top: 0;left: 0;right: 0;bottom:0;position: fixed;',
+    button: [
+        {
+          value: 'Button',
+          class: 'button',
+          styles: 'outline: none;border: none;height: 36px;width: 84px;border-radius: 9999px;color: #ffffff;background-color: #000000;text-align: center;justify-center: center;align-items: center;cursor: pointer;',
+        },
+    ],
+  },
+};
 
-  PaperJSInterpreter.interpret(paperjs);
-</script>
+PaperJSInterpreter.interpret(paperjs);
 ```
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/zYQEjML).
