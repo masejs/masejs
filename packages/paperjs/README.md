@@ -3,9 +3,7 @@
 <br/>
 
 <div align="left">Paper JS is a new way to write HTML entirely in your JavaScript.</div>
-<div align="left"><br>
-
-[![npm version](https://img.shields.io/npm/v/paperjs.svg)](https://www.npmjs.com/package/paperjs)
+<div align="left">
 
 <!--[Documentation](https://paperui.com/)-->
 
