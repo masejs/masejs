@@ -62,12 +62,25 @@ const paperjs = {
   div: {
     class: 'container',
     styles: 'justify-content: center;display: flex;align-items: center;height: 100%;width: 100%;top: 0;left: 0;right: 0;bottom:0;position: fixed;',
-    button: [
-        {
-          value: 'Button',
-          class: 'button',
-          styles: 'outline: none;border: none;height: 36px;width: 84px;border-radius: 9999px;color: #ffffff;background-color: #000000;text-align: center;justify-center: center;align-items: center;cursor: pointer;',
-        },
+    div: [
+      {
+        input: [
+          {
+            placeholder: 'Email',
+            type: 'email',
+          },
+          {
+            placeholder: 'Password',
+            type: 'password',
+          },
+        ],
+        button: [
+          {
+            value: 'Submit',
+            type: 'submit',
+          },
+        ],
+      },
     ],
   },
 };
