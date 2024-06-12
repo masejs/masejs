@@ -13,7 +13,7 @@
 
 ### CDN
 
-Import Paper JS using CDN. The import.min.js file will automatically import all styles and JavaScript files into the ```<head>```.
+Import Paper JS using CDN.
 
 ```js
 import { PaperJSInterpreter } from 'https://unpkg.com/paperjs/import.min.js';
