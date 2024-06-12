@@ -90,7 +90,7 @@ PaperJSInterpreter.interpret(paperjs);
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/zYQEjML).
 
-Using the library with Material UI 3 [codepen](https://codepen.io/GreenestGoat/pen/GRaMLXR?editors=1010).
+Using the library with [Material UI ](https://codepen.io/GreenestGoat/pen/GRaMLXR?editors=1010).
 
 <!--## Backers
 
