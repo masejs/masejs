@@ -30,7 +30,7 @@ export class PaperJSInterpreter {
         classes.forEach(cls => element.classList.add(cls));
       } else if (option === 'id') {
         const ids = options[option].split(' ');
-        ids.forEach(id => element.id += ` ${id}`);
+        ids.forEach(id => element.id += `${id}`);
       } else if (Array.isArray(options[option])) {
         for (const item of options[option]) {
           const nestedElement = this.createElement(option, item);
