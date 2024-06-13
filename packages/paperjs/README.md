@@ -2,6 +2,9 @@
 <img alt="Logo Banner" src="https://github.com/Opensource-Paper/PaperScript/blob/8cd9ee1cf372d2e5f26d64393c3336187fe8bb09/banner/banner%20(6).svg?sanitize=true"/>
 <br/>
 
+<!--![GitHub issues](https://img.shields.io/github/issues/Opensource-Paper/PaperJS)-->
+[![npm version](https://img.shields.io/npm/v/paperjs.svg)](https://www.npmjs.com/package/paperjs)
+
 <div align="left">Paper JS is a new way to write HTML entirely in your JavaScript.</div>
 <div align="left">
 
