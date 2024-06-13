@@ -4,6 +4,7 @@
 
 <!--![GitHub issues](https://img.shields.io/github/issues/Opensource-Paper/PaperJS)-->
 [![npm version](https://img.shields.io/npm/v/paperjs.svg)](https://www.npmjs.com/package/paperjs)
+![File Size](https://img.shields.io/github/size/Opensource-Paper/PaperJS/packages/paperjs/import.min.js?style=flat-square)
 ![Forks](https://img.shields.io/github/forks/Opensource-Paper/PaperJS.svg?style=flat)
 ![Stars](https://img.shields.io/github/stars/Opensource-Paper/PaperJS.svg?style=flat)
 ![Issues](https://img.shields.io/github/issues/Opensource-Paper/PaperJS.svg?style=flat)
