@@ -4,6 +4,9 @@
 
 <!--![GitHub issues](https://img.shields.io/github/issues/Opensource-Paper/PaperJS)-->
 [![npm version](https://img.shields.io/npm/v/paperjs.svg)](https://www.npmjs.com/package/paperjs)
+![Forks](https://img.shields.io/github/forks/Opensource-Paper/PaperJS.svg?style=flat)
+![Stars](https://img.shields.io/github/stars/Opensource-Paper/PaperJS.svg?style=flat)
+![Issues](https://img.shields.io/github/issues/Opensource-Paper/PaperJS.svg?style=flat)
 ![License](https://img.shields.io/badge/license-MIT-green)
 [![Donate on Kofi](https://img.shields.io/badge/Donate-Kofi-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/brick_wall)
 <a href="https://discord.gg/Mbtnv9BN">
