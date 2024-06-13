@@ -2,7 +2,6 @@
 <img alt="Logo Banner" src="https://github.com/Opensource-Paper/PaperScript/blob/8cd9ee1cf372d2e5f26d64393c3336187fe8bb09/banner/banner%20(6).svg?sanitize=true"/>
 <br/>
 
-<!--![GitHub issues](https://img.shields.io/github/issues/Opensource-Paper/PaperJS)-->
 [![npm version](https://img.shields.io/npm/v/paperjs.svg)](https://www.npmjs.com/package/paperjs)
 ![File Size](https://img.shields.io/github/size/Opensource-Paper/PaperJS/packages/paperjs/import.min.js?style=flat-square)
 ![Forks](https://img.shields.io/github/forks/Opensource-Paper/PaperJS.svg?style=flat)
@@ -13,6 +12,13 @@
 <a href="https://discord.gg/Mbtnv9BN">
   <img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" />
 </a>
+
+<!--<img src="https://m3-markdown-badges.vercel.app/stars/1/3/Opensource-Paper/PaperJS">
+<img src="https://m3-markdown-badges.vercel.app/issues/1/2/Opensource-Paper/PaperJS">
+<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceMIT/licencemit3.svg">
+<a href="https://discord.gg/Mbtnv9BN">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Discord/discord1.svg">
+</a>-->
 
 <div align="left">Paper JS is a new way to write HTML entirely in your JavaScript.</div>
 <div align="left">
@@ -93,7 +99,7 @@ const paperjs = {
         label: [
           {
             value: 'Join newsletter',
-            styles: 'display: flex;font-family: "Roboto", sans-serif;margin-top: 28px;width: 100%',
+            styles: 'display: flex;font-family: "Roboto", sans-serif;margin-top: 28px;width: 100%;',
             input: [
               {
                 type: 'checkbox',
