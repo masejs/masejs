@@ -14,7 +14,7 @@
 <div align="left">
 
 <!--[Documentation](https://paperui.com/)-->
-[Discord](https://discord.gg/Mbtnv9BN)
+<!--[Discord](https://discord.gg/Mbtnv9BN)-->
 
 </div>
 
