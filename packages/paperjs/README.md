@@ -4,6 +4,7 @@
 
 <!--![GitHub issues](https://img.shields.io/github/issues/Opensource-Paper/PaperJS)-->
 [![npm version](https://img.shields.io/npm/v/paperjs.svg)](https://www.npmjs.com/package/paperjs)
+![License](https://img.shields.io/badge/license-MIT-green)
 [![Donate on Kofi](https://img.shields.io/badge/Donate-Kofi-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/brick_wall)
 <a href="https://discord.gg/Mbtnv9BN">
   <img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" />
