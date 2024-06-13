@@ -28,12 +28,12 @@
 Import Paper JS using CDN.
 
 ```js
-import { PaperJSInterpreter } from 'https://unpkg.com/paperjs/import.min.js';
+import { PaperJSInterpreter } from 'https://unpkg.com/paperjs';
 ```
 
 #### 🚧 Specific Version
 ```js
-import { PaperJSInterpreter } from 'https://unpkg.com/paperjs@latest/import.min.js';
+import { PaperJSInterpreter } from 'https://unpkg.com/paperjs@latest';
 ```
 
 <!--#### 🚧 Development
@@ -68,7 +68,7 @@ Use the tree structure in your Javascript. <!--Refer to the [Documentation](http
 ```script.js```
 
 ```js
-import { PaperJSInterpreter } from 'https://unpkg.com/paperjs/import.min.js';
+import { PaperJSInterpreter } from 'https://unpkg.com/paperjs';
 
 const paperjs = {
   div: {
