@@ -21,7 +21,7 @@
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Discord/discord1.svg">
 </a>-->
 
-<div align="left">Paper JS is a new way to write HTML entirely in your JavaScript.</div>
+<div align="left">Mase JS is a new way to write HTML entirely in your JavaScript.</div>
 <div align="left">
 
 <!--[Documentation](https://paperui.com/)-->
@@ -33,15 +33,15 @@
 
 ### CDN
 
-Import Paper JS using CDN.
+Import Mase JS using CDN.
 
 ```js
-import { PaperJSInterpreter } from 'https://cdn.jsdelivr.net/npm/paperjs';
+import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs';
 ```
 
 #### 🚧 Specific Version
 ```js
-import { PaperJSInterpreter } from 'https://cdn.jsdelivr.net/npm/paperjs@latest';
+import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs@latest';
 ```
 
 <!--#### 🚧 Development
@@ -51,22 +51,22 @@ import { PaperJSInterpreter } from 'https://cdn.jsdelivr.net/npm/paperjs@latest'
 
 ### NPM
 
-Install Paper JS using [npm and node](https://nodejs.org/en).
+Install Mase JS using [npm and node](https://nodejs.org/en).
 
 ```bash
-npm install paperjs
+npm install masejs
 ```
 
 ## Import
 
-Import paperjs definitions from ```PaperJSInterpreter```.
+Import paperjs definitions from ```MaseJSInterpreter```.
 
 ```index.js```
 
 ```js
-import { PaperJSInterpreter } from './paperjs/import.min.js';
+import { MaseJSInterpreter } from './masejs/import.min.js';
 
-PaperJSInterpreter.interpret(paperjs);
+MaseJSInterpreter.interpret(masejs);
 ```
 
 ## Usage
@@ -76,9 +76,9 @@ Use the tree structure in your Javascript. <!--Refer to the [Documentation](http
 ```script.js```
 
 ```js
-import { PaperJSInterpreter } from 'https://cdn.jsdelivr.net/npm/paperjs';
+import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs';
 
-const paperjs = {
+const masejs = {
   div: {
     class: 'container',
     styles: 'justify-content: center;display: flex;align-items: center;height: 100%;width: 100%;top: 0;left: 0;right: 0;bottom: 0;position: fixed;',
@@ -123,14 +123,14 @@ const paperjs = {
   },
 };
 
-PaperJSInterpreter.interpret(paperjs);
+MaseJSInterpreter.interpret(masejs);
 ```
 
 ## Examples
 
-* A basic form with [PaperJS](https://codepen.io/GreenestGoat/pen/zYQEjML).
+* A basic form with [MaseJS](https://codepen.io/GreenestGoat/pen/zYQEjML).
 
-* A simple sidebar with [PaperJS](https://codepen.io/GreenestGoat/pen/qBGVxbv).
+* A simple sidebar with [MaseJS](https://codepen.io/GreenestGoat/pen/qBGVxbv).
 
 * Using the library with [Material UI](https://codepen.io/GreenestGoat/pen/GRaMLXR?editors=1010).
 
@@ -143,6 +143,6 @@ Thank you to all our backers! 🙏.
 
 ## Copyright and license
 
-Licensed under the MIT License, Copyright © 2024-present Opensource-Paper.
+Licensed under the MIT License, Copyright © 2024-present masejs.
 
-See [LICENSE](https://github.com/Opensource-Paper/PaperJS/blob/main/LICENSE) for more information.
+See [LICENSE](https://github.com/masejs/masejs/blob/main/LICENSE) for more information.

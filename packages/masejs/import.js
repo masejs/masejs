@@ -1,8 +1,8 @@
-export class PaperJSInterpreter {
-  static interpret(paperjs) {
-    for (const tag in paperjs) {
-      const element = this.createElement(tag, paperjs[tag]);
-      this.applyElementOptions(element, paperjs[tag]);
+export class MaseJSInterpreter {
+  static interpret(masejs) {
+    for (const tag in masejs) {
+      const element = this.createElement(tag, masejs[tag]);
+      this.applyElementOptions(element, masejs[tag]);
       document.body.appendChild(element);
     }
   }

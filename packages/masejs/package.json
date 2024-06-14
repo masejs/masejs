@@ -1,7 +1,7 @@
 {
-  "name": "paperjs",
-  "version": "0.0.39",
-  "description": "Paper JS is a new way to write HTML entirely in your JavaScript.",
+  "name": "masejs",
+  "version": "0.0.40",
+  "description": "Mase JS is a new way to write HTML entirely in your JavaScript.",
   "main": "import.js",
   "unpkg": "import.min.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Opensource-Paper/PaperJS.git"
+    "url": "git+https://github.com/masejs/masejs.git"
   },
   "author": "Opensource-Paper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Opensource-Paper/PaperJS/issues"
+    "url": "https://github.com/masejs/masejs/issues"
   },
-  "homepage": "https://paperui.com",
+  "homepage": "https://github.com/masejs/masejs",
   "keywords": [
     "javascript",
     "language",
@@ -24,10 +24,12 @@
     "open-source",
     "npm",
     "documentation",
+    "library",
+    "framework",
     "js",
-    "paper",
     "script",
-    "paperjs",
-    "paperscript"
+    "cdn",
+    "mase",
+    "masejs"
   ]
 }
