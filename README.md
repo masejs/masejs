@@ -2,7 +2,7 @@
 <img alt="Logo Banner" src="https://raw.githubusercontent.com/masejs/masejs/main/banner/banner.svg?sanitize=true"/>
 <br/>
 
-[![npm version](https://img.shields.io/npm/v/paperjs.svg)](https://www.npmjs.com/package/paperjs)
+[![npm version](https://img.shields.io/npm/v/namejs.svg)](https://www.npmjs.com/package/namejs)
 ![File Size](https://img.shields.io/github/size/masejs/masejs/packages/masejs/import.min.js?style=flat-square)
 ![Forks](https://img.shields.io/github/forks/masejs/masejs.svg?style=flat)
 ![Stars](https://img.shields.io/github/stars/masejs/masejs.svg?style=flat)
