@@ -126,9 +126,13 @@ const paperjs = {
 PaperJSInterpreter.interpret(paperjs);
 ```
 
-Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/zYQEjML).
+## Examples
 
-Using the library with [Material UI ](https://codepen.io/GreenestGoat/pen/GRaMLXR?editors=1010).
+* Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/zYQEjML).
+
+* Using the library with [Material UI](https://codepen.io/GreenestGoat/pen/GRaMLXR?editors=1010).
+
+* A simple sidebar with [PaperJS](https://codepen.io/GreenestGoat/pen/GRaMLXR?editors=1010).
 
 <!--## Backers
 
