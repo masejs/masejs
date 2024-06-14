@@ -1,12 +1,12 @@
 <p align="center">
-<img alt="Logo Banner" src="https://raw.githubusercontent.com/Opensource-Paper/PaperJS/main/banner/banner%20updated.svg?sanitize=true"/>
+<img alt="Logo Banner" src="https://raw.githubusercontent.com/masejs/masejs/main/banner/banner.svg?sanitize=true"/>
 <br/>
 
 [![npm version](https://img.shields.io/npm/v/paperjs.svg)](https://www.npmjs.com/package/paperjs)
-![File Size](https://img.shields.io/github/size/Opensource-Paper/PaperJS/packages/paperjs/import.min.js?style=flat-square)
-![Forks](https://img.shields.io/github/forks/Opensource-Paper/PaperJS.svg?style=flat)
-![Stars](https://img.shields.io/github/stars/Opensource-Paper/PaperJS.svg?style=flat)
-![Issues](https://img.shields.io/github/issues/Opensource-Paper/PaperJS.svg?style=flat)
+![File Size](https://img.shields.io/github/size/masejs/masejs/packages/masejs/import.min.js?style=flat-square)
+![Forks](https://img.shields.io/github/forks/masejs/masejs.svg?style=flat)
+![Stars](https://img.shields.io/github/stars/masejs/masejs.svg?style=flat)
+![Issues](https://img.shields.io/github/issues/masejs/masejs.svg?style=flat)
 ![License](https://img.shields.io/badge/license-MIT-green)
 [![Donate on Kofi](https://img.shields.io/badge/Donate-Kofi-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/brick_wall)
 <a href="https://discord.gg/Mbtnv9BN">
