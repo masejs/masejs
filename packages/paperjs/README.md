@@ -36,17 +36,17 @@
 Import Paper JS using CDN.
 
 ```js
-import { PaperJSInterpreter } from 'https://unpkg.com/paperjs';
+import { PaperJSInterpreter } from 'https://cdn.jsdelivr.net/npm/paperjs';
 ```
 
 #### 🚧 Specific Version
 ```js
-import { PaperJSInterpreter } from 'https://unpkg.com/paperjs@latest';
+import { PaperJSInterpreter } from 'https://cdn.jsdelivr.net/npm/paperjs@latest';
 ```
 
 <!--#### 🚧 Development
 ```html
-<script type="module" src="https://unpkg.com/papericons@latest"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/paperjs@latest"></script>
 ```-->
 
 ### NPM
@@ -76,7 +76,7 @@ Use the tree structure in your Javascript. <!--Refer to the [Documentation](http
 ```script.js```
 
 ```js
-import { PaperJSInterpreter } from 'https://unpkg.com/paperjs';
+import { PaperJSInterpreter } from 'https://cdn.jsdelivr.net/npm/paperjs';
 
 const paperjs = {
   div: {
