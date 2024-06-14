@@ -128,11 +128,11 @@ PaperJSInterpreter.interpret(paperjs);
 
 ## Examples
 
-* Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/zYQEjML).
+* A basic form with [PaperJS](https://codepen.io/GreenestGoat/pen/zYQEjML).
+
+* A simple sidebar with [PaperJS](https://codepen.io/GreenestGoat/pen/qBGVxbv).
 
 * Using the library with [Material UI](https://codepen.io/GreenestGoat/pen/GRaMLXR?editors=1010).
-
-* A simple sidebar with [PaperJS](https://codepen.io/GreenestGoat/pen/GRaMLXR?editors=1010).
 
 <!--## Backers
 
