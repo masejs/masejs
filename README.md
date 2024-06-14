@@ -3,6 +3,7 @@
 <br/>
 
 [![npm version](https://img.shields.io/npm/v/paperjs.svg)](https://www.npmjs.com/package/paperjs)
+[![](https://data.jsdelivr.com/v1/package/npm/paperjs/badge)](https://www.jsdelivr.com/package/npm/paperjs)
 ![File Size](https://img.shields.io/github/size/Opensource-Paper/PaperJS/packages/paperjs/import.min.js?style=flat-square)
 ![Forks](https://img.shields.io/github/forks/Opensource-Paper/PaperJS.svg?style=flat)
 ![Stars](https://img.shields.io/github/stars/Opensource-Paper/PaperJS.svg?style=flat)
