@@ -13,11 +13,13 @@
                                                                                              
 export class MaseJSInterpreter {
   static interpret(masejs) {
+    const fragment = document.createDocumentFragment();
     for (const tag in masejs) {
       const element = this.createElement(tag, masejs[tag]);
       this.applyElementOptions(element, masejs[tag]);
-      document.body.appendChild(element);
+      fragment.appendChild(element);
     }
+    document.body.appendChild(fragment);
   }
 
   static createElement(tag, options) {
@@ -26,36 +28,43 @@ export class MaseJSInterpreter {
       element.innerHTML = options;
       return element;
     } else {
-      const element = document.createElement(tag);
-      return element;
+      return document.createElement(tag);
     }
   }
 
   static applyElementOptions(element, options) {
-  if (typeof options === 'object') {
-    for (const option in options) {
-      if (option === 'value') {
-        element.textContent = options[option];
-      } else if (option === 'styles') {
-        this.applyStyles(element, options[option]);
-      } else if (option === 'class') {
-        const classes = options[option].split(' ');
-        classes.forEach(cls => element.classList.add(cls));
-      } else if (option === 'id') {
-        const ids = options[option].split(' ');
-        ids.forEach(id => element.id += `${id}`);
-      } else if (Array.isArray(options[option])) {
-        for (const item of options[option]) {
-          const nestedElement = this.createElement(option, item);
-          this.applyElementOptions(nestedElement, item);
-          element.appendChild(nestedElement);
+    if (typeof options === 'object') {
+      for (const option in options) {
+        switch (option) {
+          case 'value':
+            element.textContent = options[option];
+            break;
+          case 'styles':
+            this.applyStyles(element, options[option]);
+            break;
+          case 'class':
+            element.className = options[option];
+            break;
+          case 'id':
+            element.id = options[option];
+            break;
+          case 'events':
+            this.applyEventListeners(element, options[option]);
+            break;
+          default:
+            if (Array.isArray(options[option])) {
+              for (const item of options[option]) {
+                const nestedElement = this.createElement(option, item);
+                this.applyElementOptions(nestedElement, item);
+                element.appendChild(nestedElement);
+              }
+            } else {
+              element.setAttribute(option, options[option]);
+            }
         }
-      } else {
-        element.setAttribute(option, options[option]);
       }
     }
   }
-}
 
   static applyStyles(element, styles) {
     if (styles) {
@@ -65,6 +74,14 @@ export class MaseJSInterpreter {
           const [property, value] = style.split(':');
           element.style[property.trim()] = value.trim();
         }
+      }
+    }
+  }
+
+  static applyEventListeners(element, events) {
+    if (events) {
+      for (const event in events) {
+        element.addEventListener(event, events[event]);
       }
     }
   }
