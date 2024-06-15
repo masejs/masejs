@@ -67,21 +67,17 @@ export class MaseJSInterpreter {
   }
 
   static applyStyles(element, styles) {
-    if (styles) {
-      const styleArray = styles.split(';');
-      for (const style of styleArray) {
-        if (style.trim() !== '') {
-          const [property, value] = style.split(':');
-          element.style[property.trim()] = value.trim();
-        }
+    if (styles && typeof styles === 'object') {
+      for (const [property, value] of Object.entries(styles)) {
+        element.style[property] = value;
       }
     }
   }
 
   static applyEventListeners(element, events) {
-    if (events) {
-      for (const event in events) {
-        element.addEventListener(event, events[event]);
+    if (events && typeof events === 'object') {
+      for (const [event, handler] of Object.entries(events)) {
+        element.addEventListener(event, handler);
       }
     }
   }

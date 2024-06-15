@@ -81,11 +81,27 @@ import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs@latest';
 const masejs = {
   div: {
     class: 'button-container',
-    styles: 'height: 100%;width: 100%;align-items: center;display: flex;justify-content: center;inset: 0px;position: fixed;',
+    styles: {
+      height: '100%',
+      width: '100%',
+      'align-items': 'center',
+      display: 'flex',
+      'justify-content': 'center',
+      inset: '0px',
+      position: 'fixed',
+    },
     button: [
       {
         value: 'Click me',
-        styles: 'color: white;background-color: #000000;outline: none;border: none;height: 38px;width: 88px;border-radius: 5px;',
+        styles: {
+          color: 'white',
+          'background-color': '#000000',
+          outline: 'none',
+          border: 'none',
+          height: '38px',
+          width: '88px',
+          'border-radius': '5px'
+        },
         class: 'button',
         id: 'button',
         events: {
