@@ -76,51 +76,24 @@ Use the tree structure in your Javascript. <!--Refer to the [Documentation](http
 ```script.js```
 
 ```js
-import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs';
+import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs@latest';
 
 const masejs = {
   div: {
-    class: 'container',
-    styles: 'justify-content: center;display: flex;align-items: center;height: 100%;width: 100%;top: 0;left: 0;right: 0;bottom: 0;position: fixed;',
-    form: [
+    class: 'button-container',
+    styles: 'height: 100%;width: 100%;align-items: center;display: flex;justify-content: center;inset: 0px;position: fixed;',
+    button: [
       {
-        styles: 'width: 300px;',
-        input: [
-          {
-            type: 'email',
-            placeholder: 'Email',
-            styles: 'display: flex;width: 100%;height: 38px;',
-          },
-          {
-            type: 'password',
-            styles: 'margin-top: 12px;display: flex;width: 100%;height: 38px;',
-            placeholder: 'Password',
-          },
-        ],
-        label: [
-          {
-            value: 'Join newsletter',
-            styles: 'display: flex;font-family: "Roboto", sans-serif;margin-top: 28px;width: 100%;',
-            input: [
-              {
-                type: 'checkbox',
-                id: 'checkbox',
-                styles: 'display: flex;margin-left: 10px;',
-              },
-            ],
-          },
-        ],
-        button: [
-          {
-            styles: 'margin-top: 20px;display: flex;width: 100%;align-items: center;height: 32px;justify-content: center;',
-            value: 'Reset',
-            type: 'reset',
-            class: 'reset-button',
-          },
-        ],
-      },
-    ],
-  },
+        value: 'Click me',
+        styles: 'color: white;background-color: #000000;outline: none;border: none;height: 38px;width: 88px;border-radius: 5px;',
+        class: 'button',
+        id: 'button',
+        events: {
+          click: () => alert('Button clicked!')
+        },
+      }
+    ]
+  }
 };
 
 MaseJSInterpreter.interpret(masejs);
