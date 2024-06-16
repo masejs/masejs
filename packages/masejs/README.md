@@ -59,7 +59,7 @@ npm install masejs
 
 ## Import
 
-Import paperjs definitions from ```MaseJSInterpreter```.
+Import Mase JS definitions from ```MaseJSInterpreter```.
 
 ```index.js```
 
