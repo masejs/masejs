@@ -124,6 +124,8 @@ MaseJSInterpreter.interpret(masejs);
 
 * Using the library with [Material UI](https://codepen.io/GreenestGoat/pen/GRaMLXR?editors=1010).
 
+Check out [Mase JS Examples](https://github.com/masejs/masejs-examples) for a curated of list of projects built using masejs.
+
 <!--## Backers
 
 Thank you to all our backers! 🙏.
