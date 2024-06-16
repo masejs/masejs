@@ -3,7 +3,7 @@
 <br/>
 
 [![npm version](https://img.shields.io/npm/v/masejs.svg)](https://www.npmjs.com/package/masejs)
-![File Size](https://img.shields.io/github/size/masejs/masejs/packages/masejs/import.min.js?style=flat-square)
+[![](https://data.jsdelivr.com/v1/package/npm/masejs/badge)](https://www.jsdelivr.com/package/npm/masejs)
 ![Forks](https://img.shields.io/github/forks/masejs/masejs.svg?style=flat)
 ![Stars](https://img.shields.io/github/stars/masejs/masejs.svg?style=flat)
 ![Issues](https://img.shields.io/github/issues/masejs/masejs.svg?style=flat)
@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" />
 </a>
 
+<!--[File Size](https://img.shields.io/github/size/masejs/masejs/packages/masejs/import.min.js?style=flat-square)-->
 <!--[![](https://data.jsdelivr.com/v1/package/npm/paperjs/badge)](https://www.jsdelivr.com/package/npm/paperjs)-->
 <!--<img src="https://m3-markdown-badges.vercel.app/stars/1/3/Opensource-Paper/PaperJS">
 <img src="https://m3-markdown-badges.vercel.app/issues/1/2/Opensource-Paper/PaperJS">
