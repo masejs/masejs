@@ -65,7 +65,7 @@ Import Mase JS definitions from ```MaseJSInterpreter```.
 ```index.js```
 
 ```js
-import { MaseJSInterpreter } from './masejs/import.min.js';
+import { MaseJSInterpreter } from 'masejs';
 
 MaseJSInterpreter.interpret(masejs);
 ```
