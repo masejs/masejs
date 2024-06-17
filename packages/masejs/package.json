@@ -1,6 +1,6 @@
 {
   "name": "masejs",
-  "version": "0.0.52",
+  "version": "0.0.53",
   "description": "Mase JS is a new way to write HTML entirely in your JavaScript.",
   "main": "import.js",
   "unpkg": "import.min.js",

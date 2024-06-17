@@ -126,6 +126,11 @@ MaseJSInterpreter.interpret(masejs);
 
 Check out [Mase JS Examples](https://github.com/masejs/masejs-examples) for a curated of list of projects built using masejs.
 
+## To Do
+
+- [ ] Plugin support.
+- [ ] Serverside rendering with nodejs.
+
 <!--## Backers
 
 Thank you to all our backers! 🙏.
