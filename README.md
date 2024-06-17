@@ -101,7 +101,7 @@ const masejs = {
           border: 'none',
           height: '38px',
           width: '88px',
-          'border-radius': '5px'
+          'border-radius': '5px',
           cursor: 'pointer',
         },
         class: 'button',
