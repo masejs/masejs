@@ -10,7 +10,13 @@
   \___/      |__/     |__/ \_______/|_______/  \_______/       \______/  \______/       |___/  
                                                                                                
 */
-                                                                                             
+
+// import plugins
+
+// import"./plugins/validation.js";
+
+// export interpreter
+
 export class MaseJSInterpreter {
   static interpret(masejs) {
     const fragment = document.createDocumentFragment();
@@ -50,6 +56,13 @@ export class MaseJSInterpreter {
             break;
           case 'events':
             this.applyEventListeners(element, options[option]);
+            break;
+          case 'center':
+            if (options[option] === 'true') {
+              element.style.display = 'flex';
+              element.style.justifyContent = 'center';
+              element.style.alignItems = 'center';
+            }
             break;
           default:
             if (Array.isArray(options[option])) {
