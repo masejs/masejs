@@ -81,13 +81,11 @@ import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs@latest';
 
 const masejs = {
   div: {
+    center: 'true',
     class: 'button-container',
     styles: {
       height: '100%',
       width: '100%',
-      'align-items': 'center',
-      display: 'flex',
-      'justify-content': 'center',
       inset: '0px',
       position: 'fixed',
     },
