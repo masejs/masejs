@@ -13,7 +13,7 @@
 
 // import plugins
 
-import"./plugins/plugins.js";
+//import"./plugins/plugins.js";
 
 // export interpreter
 
