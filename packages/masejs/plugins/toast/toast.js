@@ -1,5 +1,5 @@
 import"./plugins/toast/internal/toast.js";
 import { ToastStyles } from './all-styles.min.js';
 
-const styleElement = document.createElement('style');
-styleElement.innerHTML = ToastStyles;document.head.appendChild(styleElement);
+const ToastElement = document.createElement('style');
+ToastElement.innerHTML = ToastStyles;document.head.appendChild(ToastElement);
