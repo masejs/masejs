@@ -1,1 +1,1 @@
-import"./plugins/toast/toast.js";
+import"./toast/toast.js";
