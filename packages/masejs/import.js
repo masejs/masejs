@@ -11,10 +11,6 @@
                                                                                                
 */
 
-// import plugins
-
-//import"./plugins/plugins.js";
-
 // export interpreter
 
 export class MaseJSInterpreter {
