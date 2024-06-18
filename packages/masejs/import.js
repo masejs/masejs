@@ -13,7 +13,7 @@
 
 // import plugins
 
-// import"./plugins/validation.js";
+import"./plugins/plugins.js";
 
 // export interpreter
 
