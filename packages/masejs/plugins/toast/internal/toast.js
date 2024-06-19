@@ -1,4 +1,4 @@
-class ToastPlugin {
+export class ToastPlugin {
     static TOAST_CONTAINER_ID = 'masejs-toast-container';
     static DEFAULT_POSITION = 'bottom-right';
 
