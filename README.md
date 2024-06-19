@@ -128,6 +128,7 @@ Check out [Mase JS Examples](https://github.com/masejs/masejs-examples) for a cu
 ## To do
 
 - [ ] State managment.
+- [ ] Router.
 - [ ] Reusable Components.
 - [ ] Plugin support.
 - [ ] Serverside rendering with nodejs.
