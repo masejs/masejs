@@ -1,4 +1,4 @@
-export const cssContent = `
+export const ToastStyles = `
 .masejs-toast-container {
   position: fixed;
   z-index: 9999;
