@@ -1,4 +1,4 @@
-import"./internal/toast.js";
+import './internal/toast.js';
 import { ToastStyles } from './internal/toast-styles.js';
 
 const ToastElement = document.createElement('style');
