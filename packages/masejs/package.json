@@ -1,6 +1,6 @@
 {
   "name": "masejs",
-  "version": "0.0.67",
+  "version": "0.0.68",
   "description": "Mase JS is a new way to write HTML entirely in your JavaScript.",
   "main": "import.js",
   "unpkg": "import.min.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/masejs/masejs.git"
   },
-  "author": "Opensource-Paper",
+  "author": "masejs",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/masejs/masejs/issues"
